@@ -1,6 +1,5 @@
 <template>
-  <div>
-  </div>
+  <div>Cart</div>
 </template>
 
 <script>
@@ -13,4 +12,3 @@ export default {
 <style>
 
 </style>
-<
