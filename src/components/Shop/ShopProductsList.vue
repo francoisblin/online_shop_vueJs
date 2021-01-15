@@ -1,10 +1,6 @@
 <template>
   <div class="d-flex flex-row flex-wrap">
-    <shop-product-item></shop-product-item>
-    <shop-product-item></shop-product-item>
-    <shop-product-item></shop-product-item>
-    <shop-product-item></shop-product-item>
-    <shop-product-item></shop-product-item>
+    <shop-product-item v-for="product in products" :key="product.id" :product="product"></shop-product-item>
   </div>
 </template>
 
@@ -14,7 +10,8 @@ import ShopProductItem from './ShopProductItem.vue'
 export default {
   components: {
     ShopProductItem
-  }
+  },
+  props: ['products']
 }
 
 </script>

@@ -20,16 +20,7 @@
 <script>
 
 export default {
-  data () {
-    return {
-      product: {
-        img: 'https://www.notebookcheck.biz/uploads/tx_nbc2/air13teaser.jpg',
-        title: 'Mac Book 13',
-        description: 'Notre portable le plus fin et le plus léger est métamorphosé par la puce Apple M1.',
-        price: '1500 €'
-      }
-    }
-  }
+  props: ['product']
 }
 
 </script>
