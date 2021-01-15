@@ -27,7 +27,21 @@ export const eventBus = new Vue({
         description: 'Quand nous avons créé le MacBook, nous avons tout simplement tenté l\'impossible. C\'est le plus fin et le plus léger de nos ordinateurs portables',
         price: 1500
       }
+    ],
+    cart: [
     ]
+  },
+  methods: {
+    addProductToCart (product) {
+      if (!this.cart.map(i => i.id).includes(product.id)) {
+        this.cart = [...this.cart, product]
+        this.$emit('update:cart', this.cart.slice())
+      }
+    },
+    removeItemFromCart (item) {
+      this.cart = this.cart.slice().filter(i => i.id !== item.id)
+      this.$emit('update:cart', this.cart.slice())
+    }
   }
 })
 
