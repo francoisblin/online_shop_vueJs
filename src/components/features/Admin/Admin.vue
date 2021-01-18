@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <admin-product-form></admin-product-form>
+  <div class="d-flex flex-row justify-content-center p-5">
+    <admin-product-form class="w-50"></admin-product-form>
   </div>
 </template>
 

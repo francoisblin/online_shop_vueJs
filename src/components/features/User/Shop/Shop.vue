@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ShopProductsList from './ShopProductsList.vue'
+import ShopProductsList from './ShopProductsList'
 import { eventBus } from '../../../../main'
 
 export default {
