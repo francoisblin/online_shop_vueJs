@@ -1,5 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
+import * as Filters from './utils/filters'
+
+Object.keys(Filters).forEach((f) => {
+  Vue.filter(f, Filters[f])
+})
 
 Vue.config.productionTip = false
 
