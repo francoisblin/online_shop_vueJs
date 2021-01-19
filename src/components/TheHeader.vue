@@ -30,8 +30,12 @@ export default {
   methods: {
     changePage (page) {
       eventBus.changePage(page)
-      this.page = page
     }
+  },
+  created () {
+    eventBus.$on('update:page', (page) => {
+      this.page = page
+    })
   }
 }
 </script>
