@@ -4,22 +4,11 @@
 
 <script>
 import ShopProductsList from './ShopProductsList'
-import { eventBus } from '../../../../main'
 
 export default {
+  props: ['products'],
   components: {
     ShopProductsList
-  },
-  data () {
-    return {
-      products: []
-    }
-  },
-  created () {
-    this.products = eventBus.products
-    eventBus.$on('update:products', (products) => {
-      this.products = products
-    })
   }
 }
 

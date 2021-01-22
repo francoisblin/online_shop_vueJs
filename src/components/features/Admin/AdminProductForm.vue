@@ -26,7 +26,6 @@
 </template>
 
 <script>
-import { eventBus } from '../../../main'
 
 export default {
   data () {
@@ -44,7 +43,7 @@ export default {
     trySubmit (event) {
       event.preventDefault()
       if (this.formIsValid()) {
-        eventBus.addProduct({ ...this.form })
+        this.$store.dispatch('product/saveOne', { ...this.form })
         this.resetForm()
         this.$router.push('/shop')
       }
