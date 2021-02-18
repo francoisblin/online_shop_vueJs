@@ -1,4 +1,4 @@
-# BudgetAPI
+# Online Shop Vue.js
 
 The BudgetApp is basically a back-end (in Node.js) Application for Budget Management, in which I've added the back-end requests for Create, Update, View, Delete Incomes and Expenses on envelopes model wher a user can assign a budget for any expenses (like holidays :palm_tree:), update it, delete, and reassign from an enveloppe to another.
 
