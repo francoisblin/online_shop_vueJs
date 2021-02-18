@@ -37,7 +37,7 @@ And install all the npm dependencies: `npm init`
 * [X] HTTP request with Axios and Firebase
 
 Future Improvements
-* [] Auth with JWT Node and Express
+* [ ] Auth with JWT Node and Express
 
 _Any suggestions for the App are welcomed. Please email me at frablin@gmail.com to share your suggestions_
 
