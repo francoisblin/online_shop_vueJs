@@ -1,0 +1,49 @@
+{
+  "products" : {
+    "-MR_kl9CemLx_pL8ZS3e" : {
+      "description" : "Quand nous avons créé le MacBook, nous avons tout simplement tenté l'impossible. C'est le plus fin et le plus léger de nos ordinateurs portables",
+      "id" : "1",
+      "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7ekQ3gBH4qgpA_rFjIi5BRHelutd--Q0xhf76XENxHC_gpsIZA",
+      "price" : 1500,
+      "title" : "MacBook"
+    },
+    "-MR_kl9_CucaOWyAzJc3" : {
+      "description" : "Quand nous avons créé le MacBook, nous avons tout simplement tenté l'impossible. C'est le plus fin et le plus léger de nos ordinateurs portables",
+      "id" : "3",
+      "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7ekQ3gBH4qgpA_rFjIi5BRHelutd--Q0xhf76XENxHC_gpsIZA",
+      "price" : 1500,
+      "title" : "MacBook"
+    },
+    "-MR_kl9bolro5GUpLeBH" : {
+      "description" : "The GPU. The source of any competent, powerful gaming machine. With next-gen solutions from NVIDIA® and AMD, this source is overflowing.",
+      "id" : "2",
+      "img" : "https://static.fnac-static.com/multimedia/Images/FR/MDM/e2/0e/1a/1707746/1540-0/tsp20180327114010/PC-Portable-Gaming-Acer-Predator-21-X-GX21-71-76VC-21-Incurve.jpg",
+      "price" : 2300,
+      "title" : "Predator"
+    },
+    "-MR_qBidTc7k_b-DOlhC" : {
+      "description" : "Asus S712FA-AU391T : une élégance intemporelle aux accents de modernité !  ",
+      "img" : "https://image.darty.com/informatique/ordinateur_portable-portable/portable/asus_s712fa-au391i7_8_12_s1911144741366B_104836673.jpg",
+      "price" : 799,
+      "title" : "ASUS S712FA-AU391T"
+    },
+    "-MR_qheIOU74pL8dNxg9" : {
+      "description" : "Ecran 17.3\" Full HD IPS ( 1920 x 1080 ) - Webcam HD - 2 haut-parleurs stéréo - Connectivités : 1 x RJ-45, Bluetooth 5.0, 1x USB 2.0, 2 x USB 3.1 Gen 1 (dont 1 fonction charge même ordinateur éteint),",
+      "img" : "https://www.carrefour.fr/media/1500x1500/Photosite/EPCS/MICRO_INFORMATIQUE/4710180475906_PHOTOSITE_20201113_183838_0.jpg?placeholder=1",
+      "price" : 999,
+      "title" : "AN517-51-520C - Noir ACER"
+    },
+    "-MR_rAoNXhuvClDPDiBf" : {
+      "description" : "Caractéristiques :\n\nEcran 14\" HD ( 1366 x 768 )\n\nDoubles haut-parleurs\n\nWebcam HP TrueVision HD avec microphone numérique intégré\n\nWifi\n\nBluetooth 4.2\n\nPorts : 1 port USB 3.1 Type-C™ Gen 1 (transfert de données jusqu’à 5 Gbits/s); 2 ports USB 3.1 Gen 1 (transfert de données uniquement); 1 port HDMI 1.4b. 1 port RJ-45 ; 1 prise combinée casque/microphone\n\n1 lecteur de cartes multimédias SD multi-formats\n\nAutonomie de la batterie jusqu'à 12h30\n\nClavier chiclet complet.",
+      "img" : "https://www.carrefour.fr/media/1500x1500/Photosite/EPCS/MICRO_INFORMATIQUE/0194441630701_PHOTOSITE_20191211_182456_0.jpg?placeholder=1",
+      "price" : 449,
+      "title" : " Ordinateur portable 14\" - 14-cf0051nf argent HP"
+    },
+    "-MRdduwJdIcRLchW3fTN" : {
+      "description" : "Acer Aspire 3 A315-23-R9PV : Voyez la vie en haute définition\n\nOptimisez votre flux de travail et finalisez vos projets rapidement grâce au processeur AMD Ryzen™ 5-3500U Quad-Core et à la grande capacité de mémoire et de stockage haute vitesse. \nL'écran 15.6\" à bords fins vous permet de profiter d'une surface d'affichage plus large, afin que vous puissiez vous concentrer sur ce qui se trouve devant vous. ",
+      "img" : "https://image.darty.com/informatique/ordinateur_portable-portable/portable/acer_a315-23-r9pvr5_8_56_s2101074878019A_110216151.png",
+      "price" : 549,
+      "title" : "ACER ASPIRE A315-23-R9PV"
+    }
+  }
+}
